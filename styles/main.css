@@ -1,0 +1,13 @@
+.wide, .vertical {
+    text-align: center;
+}
+.wide img {
+    max-width: 88%
+}
+
+.vertical {
+    display: inline-block
+}
+.vertical img {
+    max-width: 44%;
+}
