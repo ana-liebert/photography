@@ -24,3 +24,11 @@ body {
 .verticalthird img {
     max-width: 33%;
 }
+
+.third {
+    max-width: 30.6%;
+}
+
+.twothird {
+    max-width: 68.9%;
+}
