@@ -1,13 +1,26 @@
-.wide, .vertical {
+
+body {
+    padding: 2%;
+}
+
+.wide, .vertical, .verticalthird {
     text-align: center;
 }
 .wide img {
-    max-width: 48%
+    max-width: 49.8%
 }
 
 .vertical, .wide {
     display: inline-block
 }
 .vertical img {
-    max-width: 20%;
+    max-width: 49.8%;
+}
+
+.full {
+    max-width: 100% !important;
+}
+
+.verticalthird img {
+    max-width: 33%;
 }
