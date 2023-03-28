@@ -20,8 +20,9 @@ body {
 
 .head {
     text-align: center;
-    background: maroon;
-    color: white;
+    /* background: maroon; */
+    background: black;
+    color: black;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -29,8 +30,18 @@ body {
     flex-wrap: wrap;
 }
 
+#title {
+    background-image: url("../images/IcelandGlacier.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0;
+}
+
 .body {
-    padding: 2%;
+    padding: 0;
 }
 
 h1 {
