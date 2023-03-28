@@ -3,12 +3,19 @@
 html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     font-family: 'Climate Crisis', cursive;
     text-transform: uppercase;
+    overflow-x: hidden;
+}
+
+.firstpic {
+    height: 100vh;
+    width: 100%;
 }
 
 .head {
@@ -23,7 +30,7 @@ body {
 }
 
 .body {
-    padding: 0%;
+    padding: 2%;
 }
 
 h1 {
@@ -32,32 +39,202 @@ h1 {
     margin-bottom: 0 !important;
 }
 
-.wide, .vertical, .verticalthird {
+.wide, .vertical, .verticalthird, .smallervertical {
     text-align: center;
+    
+    /* test */
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
 }
+
+.wide img, .vertical img, .verticalthird img, .third , .twothird {
+    margin: 1px; 
+}
+
 .wide img {
     max-width: 49.8%
 }
 
-.vertical, .wide {
-    display: inline-block
-}
 .vertical img {
     max-width: 49.8%;
 }
 
 .full {
-    max-width: 100% !important;
+    /* max-width: 100% !important; */
+
+    /* test */
+    max-width: 90% !important;
+    margin: 5% 0 !important;
 }
 
 .verticalthird img {
-    max-width: 33%;
+    max-width: 33.1%;
 }
 
 .third {
-    max-width: 30.6%;
+    max-width: 30%;
 }
 
 .twothird {
-    max-width: 68.9%;
+    max-width: 69%;
+}
+
+
+/* .vertical, .wide {
+    display: inline-block
+} */
+
+/* .vertical, .wide, .verticalthird {
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* .noborder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+
+
+#pink {
+    padding: 7% 0;
+    /* background: linear-gradient(142deg, rgba(255,255,255,0.2679446778711485) 0%, rgba(121,9,104,0.36878501400560226) 41%, rgb(255 0 99 / 44%) 100%); */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 60vh;
+    margin: 4% 0;
+    /* background: pink; */
+    justify-content: space-between;
+}
+
+.floatleft, .floatright {
+    background: #ff679e;
+    padding: 15%;
+}
+
+.floatleft img {
+    max-width: 53%;
+    position: absolute;
+    left:2%;
+    top: 15%;
+}
+.floatright img {
+    max-width: 41%;
+    position: absolute;
+    right: 2%;
+    bottom: 15%;
+}
+
+
+
+/* Testing new elements */
+
+/* mich genova  */
+#bluediv {
+    margin: 50px;
+   
+}
+#mich{
+    width: 40%;
+    margin: 50px;
+    background: #062335;
+    padding: 4%;
+}
+#cliffs {
+    width: 31%;
+    margin: 10% 4%;
+    border: solid 10px #062335;;
+}
+
+  /* bec beach sunset */
+
+.positioning {
+    position: relative;
+}
+#sunset {
+    z-index: 1;
+    position: absolute;
+    max-width: 44% !important;
+    opacity: 80%;
+}
+#becsunset {
+    z-index: -1;
+    max-width: 99.9%;
+}
+
+/* berliners / small vertical */
+
+.smallervertical img {
+    max-width: 40%;
+
+    margin: 5% 0;
+}
+
+/* moroccan tile */
+
+#man {
+    position: absolute;
+    z-index: 1;
+    max-width: 42.8%;
+    right: 29%;
+}
+
+/* club kids */
+#clubkids {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 3%;
+}
+#clubkids2{
+    position: absolute;
+    z-index: 5;
+    bottom: 31%;
+    left: 3%;
+}
+#smallishvertical img {
+    max-width: 46.8%;
+    margin: 5% 0;
+}
+
+/* asmaa PR */
+
+.margin {
+    margin: 5%;
+}
+#prmountain{
+    max-width: 100%;
+}
+#aforttilden {
+    position: absolute;
+    right: 0;
+    bottom: 18%;
+    z-index: 39;
+}
+
+#riviera {
+    margin-top: 5%;
+}
+
+#tiles {
+    margin: 5%;
+}
+/* morocco beach sunset */
+
+#morocco {
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+}
+#beachgirls {
+    max-width: 64%;
 }
