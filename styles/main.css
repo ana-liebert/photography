@@ -20,8 +20,8 @@ body {
 
 .head {
     /* text-align: center; */
-    /* background: maroon; */
-    background: black;
+    background: maroon;
+    /* background: black; */
     color: black;
     height: 100vh;
     display: flex;
@@ -32,13 +32,12 @@ body {
 }
 
 #title {
-    background-image: url("../images/IcelandGlacier.jpg");
+    /* background-image: url("../images/IcelandGlacier.jpg");
     background-size: cover;
-    /* background-position: bottom; */
-    background-position: -100px 73%;
+    background-position: -100px 73%; */
     color: #fff;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
     padding: 0;
     margin: 3%;
 }
